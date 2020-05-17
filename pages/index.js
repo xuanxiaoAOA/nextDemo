@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Col, message } from 'antd';
 import axios from 'axios';
 
-
 class LoginComponent extends Component {
     state = {
       userName: '',
@@ -19,7 +18,8 @@ class LoginComponent extends Component {
       return (
         <Col className="login-container">
           <div className="main_container">
-            <div className="main_content">
+            <div className="main_content login">
+              <div>111</div>
               <input
                 name="userName"
                 onChange={this.handelChange.bind(this)}
